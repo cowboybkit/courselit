@@ -10,7 +10,7 @@ const nextConfig = {
         ignoreBuildErrors: true,
     },
     images: {
-        domains: [cdn],
+        domains: [cdn, 'hmbid.s3.ap-southeast-1.amazonaws.com'],
     },
 };
 
