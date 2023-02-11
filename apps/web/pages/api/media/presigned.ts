@@ -44,7 +44,7 @@ async function getPresignedUrlHandler(req: ApiRequest, res: NextApiResponse) {
         let response = await medialitService.getPresignedUrlForUpload(
             req.subdomain!.name
         );
-        return res.status(200).json({ url: response });
+        return res.status(200).json({ url: response.replace('http://', 'https://') });
     } catch (err: any) {
         return res.status(500).json({ error: err.message });
     }
