@@ -25,7 +25,7 @@ import State from "../../ui-models/state";
 import { SiteInfo } from "@courselit/common-models";
 
 const PREFIX = "RouteBasedComponentScaffold";
-const drawerWidth = 240;
+const drawerWidth = 340;
 
 const classes = {
     root: `${PREFIX}-root`,
