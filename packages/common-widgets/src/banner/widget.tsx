@@ -207,7 +207,7 @@ export default function Widget({
                                 variant="contained"
                                 size="large"
                             >
-                                {buttonCaption || "Buy now"}
+                                {buttonCaption || "Learn now"}
                             </Button>
                         </Grid>
                     )}

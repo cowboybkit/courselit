@@ -147,9 +147,9 @@ function Product({
                 />
             </TableCell>
             <TableCell align="right">{product.customers}</TableCell>
-            <TableCell align="right">
+            {/* <TableCell align="right">
                 {formatCurrency(product.sales, siteinfo.currencyISOCode)}
-            </TableCell>
+            </TableCell> */}
             <TableCell align="right">
                 <Menu
                     options={[
