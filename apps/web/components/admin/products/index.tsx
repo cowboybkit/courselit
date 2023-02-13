@@ -161,9 +161,9 @@ const Index = (props: IndexProps) => {
                                 <TableCell align="right">
                                     {PRODUCTS_TABLE_HEADER_STUDENTS}
                                 </TableCell>
-                                <TableCell align="right">
+                                {/* <TableCell align="right">
                                     {PRODUCTS_TABLE_HEADER_SALES}
-                                </TableCell>
+                                </TableCell> */}
                                 <TableCell align="right">
                                     {PRODUCTS_TABLE_HEADER_ACTIONS}
                                 </TableCell>
